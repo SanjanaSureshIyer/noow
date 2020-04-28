@@ -4,6 +4,11 @@
 	margin: 0;
 	padding: 0;
 }
+@media screen and (max-width:800px) {
+  .left, .nav, .con {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
 body {
 	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("j.JPG");
     background-size: cover;
